@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ALL-VERSION VALUES */
+body {
+    background-color: #f6f5f3;
+}
+
+.debug {
+    border: solid 1px #000000;
+}
+
+/* MOBILE VERSION */
+
+/* HEADER */
+header {
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* TABLET VERSION */
+@media screen and (min-width: 768px) {
+    /* HEADER */
+    header {
+        justify-content: left;
+    }
+
+    h1 {
+        margin-left: 30px;
+    }
+    
+}
+
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 992px) {
+    
+}
