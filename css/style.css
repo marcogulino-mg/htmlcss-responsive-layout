@@ -29,6 +29,10 @@ h1 {
   color: #4e3969;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 h4 {
   color: #808080;
 }
@@ -38,8 +42,22 @@ h5 {
   padding-bottom: 5px;
 }
 
+hr {
+  color: #f78c16;
+  width: 7%;
+  margin-top: 10px;
+}
+
 .hidden-text {
   display: none;
+}
+
+.hidden-social {
+  display: none;
+}
+
+footer a {
+  color: #ffffff;
 }
 
 /* MOBILE VERSION */
@@ -68,12 +86,22 @@ section {
 }
 
 .video-recipe > img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .short-infos {
+  border: solid 1px #000000;
   padding: 20px;
+  box-shadow: 0 10px 10px #e3e1e2;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+.short-infos li {
+  padding: 10px 0;
 }
 
 .socials {
@@ -88,8 +116,7 @@ section {
 .socials li {
   border-radius: 100px;
   padding: 10px;
-  /* DEBUG */
-  background-color: #008000;
+  border: solid 1px #000000;
 }
 
 .socials a {
@@ -98,23 +125,28 @@ section {
 
 .banner {
   margin-top: 20px;
-  /* DEBUG */
-  height: 100px;
-  background-color: #ff0000;
+  text-align: center;
+}
+
+.banner > img {
+  max-width: 100%;
 }
 
 .photo-recipe {
   margin: 20px auto;
-  /* DEBUG */
-  height: 300px;
-  width: 300px;
-  background-color: #008000;
+  width: 65%;
+}
+
+.photo-recipe > img {
+  max-width: 100%;
 }
 
 /* FOOTER */
 footer {
   background-color: #7c69a4;
   padding: 20px;
+  margin-top: 50px;
+  color: #ffffff;
 }
 
 .col {
@@ -131,7 +163,7 @@ footer {
 }
 
 #menu-footer > li {
-  flex-basis: 22%;
+  flex-basis: 21%;
   padding: 10px;
 }
 
@@ -172,7 +204,8 @@ footer {
 
   .photo-recipe {
     float: left;
-    margin: 20px 15px 20px 0;
+    margin: 20px 15px 0 0;
+    width: 55%;
   }
 
   .presentation-text {
@@ -182,6 +215,10 @@ footer {
   /* FOOTER */
   #menu-footer {
     flex-wrap: nowrap;
+  }
+
+  #menu-footer > li {
+    flex-basis: 17%;
   }
 }
 
@@ -211,7 +248,21 @@ footer {
     width: 40%;
   }
 
-  .socials li {
-    padding: 10px 70px;
+  .short-infos > ul {
+    display: block;
+  }
+
+  .hidden-social {
+    display: inline;
+  }
+
+  .photo-recipe {
+    width: 40%;
+  }
+
+  /* FOOTER */
+  .col {
+    text-align: left;
+    width: 50%;
   }
 }
