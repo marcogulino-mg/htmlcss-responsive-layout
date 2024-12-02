@@ -17,6 +17,7 @@ body {
 .logo {
   font-size: 40px;
   font-family: "Nerko One", serif;
+  color: #ff9614;
 }
 
 ul {
@@ -66,16 +67,13 @@ section {
   margin-top: 20px;
 }
 
-.video-recipe {
-  /* DEBUG */
-  background-color: #008000;
-  height: 200px;
+.video-recipe > img {
+    width: 100%;
+    height: 100%;
 }
 
 .short-infos {
   padding: 20px;
-  /* DEBUG */
-  background-color: #0000ff;
 }
 
 .socials {
@@ -151,10 +149,6 @@ footer {
   /* MAIN */
   .hidden-text {
     display: inline;
-  }
-
-  .video-recipe {
-    height: 350px;
   }
 
   h3 {
