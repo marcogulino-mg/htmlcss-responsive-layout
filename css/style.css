@@ -99,9 +99,9 @@ section {
   margin-top: 20px;
 }
 
-.video-recipe > img {
-  width: 100%;
-  height: 100%;
+.video-recipe > iframe {
+  min-width: 100%;
+  min-height: 530px;
 }
 
 .short-infos {
