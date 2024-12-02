@@ -60,6 +60,12 @@ footer a {
   color: #ffffff;
 }
 
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
 /* MOBILE VERSION */
 
 /* HEADER */
