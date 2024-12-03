@@ -101,7 +101,8 @@ section {
 
 .video-recipe > iframe {
   min-width: 100%;
-  min-height: 530px;
+  aspect-ratio: 16/9;
+  display: block;
 }
 
 .short-infos {
